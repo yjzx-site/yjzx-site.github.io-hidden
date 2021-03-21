@@ -1,0 +1,68 @@
+﻿body
+{
+    background-color: beige;
+    margin: 100px 8% 0;
+}
+blockquote
+{
+    background-color: seashell;
+    font-style: italic;
+}
+article
+{
+    background-color: ivory;
+}
+header
+{
+    background-color: cadetblue;
+    /*height: 140px;*/
+    position: fixed;
+    width: 84%;
+    height: 75px;
+    top: 0;
+}
+footer
+{
+    background-color: lightgray;
+    font-size: x-small;
+}
+
+#bigtitle
+{
+    height: 75px;
+}
+
+#headbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+ 
+#headbar li {
+    float: left;
+}
+ 
+#headbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+#headbar li a:hover {
+    background-color: #111;
+}
+
+#texts
+{
+    background-color: azure;
+    border-width: 5px;
+    border-style: groove;
+    border-color: cadetblue;
+    padding: 10px;
+}
