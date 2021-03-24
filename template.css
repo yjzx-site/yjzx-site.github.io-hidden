@@ -8,7 +8,7 @@ blockquote
     background-color: seashell;
     font-style: italic;
 }
-#content
+article
 {
     background-color: ivory;
 }
@@ -58,7 +58,7 @@ footer
     background-color: #111;
 }
 
-#texts
+#content
 {
     background-color: azure;
     border-width: 5px;
