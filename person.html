@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./template.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js"></script>
-    <script src="./scripts/GetArticle.js"></script>
+    <script src="./scripts/GetArgument.js"></script>
 </head>
 <body>
     <header>
@@ -22,13 +22,22 @@
             </ul>
         </div>
     </header>
-    <article id="texts"></article>
+    <div id="content">
+        <article id="texts">
+            <p>当前页面不存在，无法访问。</p>
+            <a href="./index.html">返回主页</a>
+        </article>
+        <article id="declaration">
+        </article>
+    </div>
+    
     <script>
-        InsertArticle();
+        InsertContent('person','name');
     </script>
     <footer>
         <p>本网站由一群怺冢学生制作。按照<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA-4.0方式共享。</a><br>
         友情链接：<a href="http://www.yjzx.yje.cn/">浙(zhe&#769;)江省永嘉中学</a></p>
     </footer>
+    
 </body>
 </html>
